@@ -148,8 +148,8 @@ void SA::create_new_solution(void)
    {
     for(j=0;j<num_dim;j++) 
      {
-     	//pop2[i].x[j]= pop[i].x[j] + RandVal (-1.0, 1.0);
-    	pop2[i].x[j]= pop[i].x[j] + RandVal (-50.0, 50.0);   // create a new solution just by adding some small number to current position
+     	pop2[i].x[j]= pop[i].x[j] + RandVal (-1.0, 1.0);
+    	//pop2[i].x[j]= pop[i].x[j] + RandVal (-50.0, 50.0);   // create a new solution just by adding some small number to current position
     	// but you can develope a another way to create new solutions RandVal(pro_lim[var].min,pro_lim[var].max)
     	//this way does not take into account the boundaries of the problem so we can go out of the box
      }

@@ -1,4 +1,4 @@
-// SA algorithm implementation (c) Dariusz Baczyñski - Warsaw University Of Technology
+// SA algorithm implementation (c) Dariusz Baczyï¿½ski - Warsaw University Of Technology
 // 
 // 2020-11-27
 
@@ -169,6 +169,7 @@ void individual::calc_fitness(void) //Schwefel's function
   dSA.fe_curr++;
  }
 */
+/*
 void individual::calc_fitness(void) //Rastrigin's function
  {
   double sum1=0.0, sum2=0.0;
@@ -188,7 +189,7 @@ void individual::calc_fitness(void) //Rastrigin's function
   fitness=1.0/(sum+1.0);
   dSA.fe_curr++;
  }
-
+*/
 
 /*
 void individual::calc_fitness(void) //Griewank's function
@@ -254,8 +255,8 @@ void individual::calc_fitness(void) //Rosenbrock's function
 */
 
 
-/*
- void individual::calc_fitness(void) //Ackley’s function
+
+ void individual::calc_fitness(void) //Ackleyï¿½s function
  {
   double sum1=0.0, sum2=0.0;
   double sum;
@@ -275,7 +276,7 @@ void individual::calc_fitness(void) //Rosenbrock's function
   fitness=1.0/(sum+1.0);
   dSA.fe_curr++;
  }
- */
+ 
  
  
  
